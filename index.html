@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="w-full h-screen bg-[#8a63d6] flex items-center justify-center">
+    <form class="">
+      <fieldset
+        class="w-[400px] bg-[#010042] border-2 border-[#010042]"
+      >
+        <legend class="p-1 bg-blue-900 text-white font-semibold ml-4">
+          ToDo List
+        </legend>
+        <div class="p-10 flex flex-col">
+            <label for="1" class="ml-2 flex  text-2xl font-semibold text-white items-center">
+                <input name="1" type="checkbox" class="h-6 w-6 accent-[#010042] border-white mr-2" > Attending meeting
+            </label><br>
+            <label for="1" class="ml-2 flex  text-2xl font-semibold text-white items-center  line-through">
+                <input name="1" type="checkbox" class="h-6 w-6 accent-[#010042] border-white mr-2" checked> Complete Assignment
+            </label><br>
+            <label for="1" class="ml-2 flex  text-2xl font-semibold text-white items-center  line-through">
+                <input name="1" type="checkbox" class="h-6 w-6 accent-[#010042] border-white mr-2" checked> Finishing design for website
+            </label><br>
+            <label for="1" class="ml-2 flex  text-2xl font-semibold text-white items-center">
+                <input name="1" type="checkbox" class="h-6 w-6 accent-[#010042] border-white mr-2" > Go to gym
+            </label><br>
+            <!-- <input type="checkbox" name="check1" class="h-[30px] mt-0 w-[30px] checked accent-[#010042] checked:line-through"><label for="check1" class=" ">Default checkbox</label> -->
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
